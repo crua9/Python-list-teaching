@@ -5,6 +5,7 @@ def show_help():
     # print out instructions on how to use the app
     print("What do you want to add to the list?")
     print("""
+Enter 'DONE' to end the program.
 Enter 'HELP' for this help.
 Enter 'SHOW' to see your current list.
 """)
