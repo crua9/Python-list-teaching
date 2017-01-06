@@ -29,7 +29,9 @@ while True:
     new_item = input("> ")
     
     # be able to quit the app
+    if new_item == 'DONE':
         break
+    elif new_item == 'HELP':
         show_help()
         continue
     elif new_item == 'SHOW':
